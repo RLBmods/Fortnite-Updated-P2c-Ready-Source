@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="Latter use.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cheat info\aimbot.h">
+      <Filter>aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver\driver.hpp">
+      <Filter>drv</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver\defs.h">
+      <Filter>drv</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp">
+      <Filter>auth</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\offsets.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions\includes.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions\keybind.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="protection\hooks.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions\functions.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions\sdk.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="protection\SkCrypt.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="protection\spoofer.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions\ue.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="protection\xorst.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\render.h">
+      <Filter>globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions\globals.h">
+      <Filter>globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat info\loop.h">
+      <Filter>globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions\SaveLoadConfig.hpp">
+      <Filter>globals</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Libs\libcurl.lib">
+      <Filter>auth</Filter>
+    </Library>
+    <Library Include="Libs\library_x64.lib">
+      <Filter>auth</Filter>
+    </Library>
+    <Library Include="ImGui\d3d11.lib">
+      <Filter>globals</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="aimbot">
+      <UniqueIdentifier>{eacbd0bf-f985-44c4-be33-9a8f4e653004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drv">
+      <UniqueIdentifier>{687221f6-5dbd-42b5-b44a-ac9bb1def61c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{e5da9dec-7e13-4849-8f57-645663acf8f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth">
+      <UniqueIdentifier>{d2c68a25-d879-4529-a0ff-a850a16dc6bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes">
+      <UniqueIdentifier>{8ee050e0-9548-4a20-90b6-cbd084db99ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="globals">
+      <UniqueIdentifier>{abcabf85-a52b-4945-906f-004dc326c113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{8ec0a6c7-2513-4d11-881a-8e8808b2636d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

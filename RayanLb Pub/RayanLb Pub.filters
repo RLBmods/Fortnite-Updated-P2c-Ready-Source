@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{48ae4b1c-e4b6-4f97-9d0d-86b0c66e916e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{8bc85a01-662c-4e2c-89bb-47bfb0844b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{ac01a1a1-b320-43b6-9623-887ac6039abf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protection">
+      <UniqueIdentifier>{6b6625e4-d63a-43f4-b8ae-b689db5ef03e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat info">
+      <UniqueIdentifier>{e9bc1b57-4c32-421c-a7cb-96bd23f18022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functions">
+      <UniqueIdentifier>{f8347127-4fb2-49c4-8be3-9f3824c8833d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{f06fce6c-1bca-4099-9c6e-56cb6f46455f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Latter use.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver\driver.hpp">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat info\aimbot.h">
+      <Filter>Cheat info</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat info\loop.h">
+      <Filter>Cheat info</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver\defs.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions\functions.h">
+      <Filter>Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions\globals.h">
+      <Filter>Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions\includes.h">
+      <Filter>Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions\keybind.h">
+      <Filter>Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions\SaveLoadConfig.hpp">
+      <Filter>Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions\sdk.h">
+      <Filter>Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions\ue.h">
+      <Filter>Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\offsets.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\render.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="protection\hooks.h">
+      <Filter>protection</Filter>
+    </ClInclude>
+    <ClInclude Include="protection\SkCrypt.h">
+      <Filter>protection</Filter>
+    </ClInclude>
+    <ClInclude Include="protection\spoofer.h">
+      <Filter>protection</Filter>
+    </ClInclude>
+    <ClInclude Include="protection\xorst.h">
+      <Filter>protection</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp">
+      <Filter>protection</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="ImGui\d3d11.lib">
+      <Filter>ImGui</Filter>
+    </Library>
+    <Library Include="Libs\libcurl.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="Libs\library_x64.lib">
+      <Filter>Libs</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
